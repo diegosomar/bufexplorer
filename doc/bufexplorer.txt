@@ -84,25 +84,25 @@ Commands to use once exploring:
  D             |:wipeout| the buffer under the cursor from the list.  When a
                buffer is wiped, it will not be shown when unlisted buffers are
                displayed.
- F             Open selected buffer in another window above the current.
- f             Open selected buffer in another window below the current.
+ f             Cycle thru how the buffers are listed. Either by buffer
+               number, file name, file extension, most recently used (MRU), or
+               full path.
+ F             Cycle thru how the buffers are listed, in reverse order.
+ I             Open selected buffer in another window above the current.
+ i             Open selected buffer in another window below the current.
  o             Opens the buffer that is under the cursor into the current
                window.
  p             Toggles the showing of a split filename/pathname.
  q             Exit/Close bufexplorer.
  r             Reverses the order the buffers are listed in.
  R             Toggles relative path/absolute path.
- s             Cycle thru how the buffers are listed. Either by buffer
-               number, file name, file extension, most recently used (MRU), or
-               full path.
- S             Cycle thru how the buffers are listed, in reverse order.
                Either by buffer number, file name, file extension, most
                recently used (MRU), or full path.
+ S             Open the selected buffer in another window on the left of the current.
+ s             Open the selected buffer in another window on the right of the current.
  t             Opens the buffer that is under the cursor in another tab.
  T             Toggles to show only buffers for this tab or not.
  u             Toggles the showing of "unlisted" buffers.
- V             Open the selected buffer in another window on the left of the current.
- v             Open the selected buffer in another window on the right of the current.
 
 Once invoked, Buffer Explorer displays a sorted list (MRU is the default
 sort method) of all the buffers that are currently opened. You are then
